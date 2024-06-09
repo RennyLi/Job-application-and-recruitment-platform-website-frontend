@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position</title>
+    <link rel="stylesheet" href="position.css"> 
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="con">
+                <h2 class="logo">CSC3170</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="hr_home.html">HOME</a></li> <!-- 返回首页 -->
+                    <li><a href="hr_jobs.html">JOBS</a></li>
+                    <li><a href="#">POSITION</a></li>
+                    <li><a href="application.html">APPLICATION</a></li>
+                    <li><a href="hr_company.html">COMPANY</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="content">
+            <button class="create-btn" onclick="location.href='create_position.html';">Create New Position</button>
+            <table id="position-table">
+                <thead>
+                    <tr>
+                        <th>Job ID</th>
+                        <th>Job Name</th>
+                        <th>Company ID</th>
+                        <th>Location</th>
+                        <th>Salary</th>
+                        <th>Department</th>
+                        <th>Time</th>
+                        <th>Action</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="position.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Application</title>
+    <link rel="stylesheet" href="create_application.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="con">
+                <h2 class="logo">CSC3170</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="applicant_home.html">HOME</a></li>
+                    <li><a href="applicant_jobs.html">JOBS</a></li>
+                    <li><a href="hunt.html">HUNT</a></li>
+                    <li><a href="company.html">COMPANY</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Create Application</h2>
+            <div class="form-container">
+                <form id="application-form">
+                    <label for="applicant-id">Applicant ID:</label>
+                    <input type="text" id="applicant-id" name="applicant-id" required><br><br>
+
+                    <label for="applicant-name">Applicant Name:</label>
+                    <input type="text" id="applicant-name" name="applicant-name" required><br><br>
+
+                    <label for="company-id">Company ID:</label>
+                    <input type="text" id="company-id" name="company-id" required><br><br>
+
+                    <label for="company-name">Company Name:</label>
+                    <input type="text" id="company-name" name="company-name" required><br><br>
+
+                    <label for="job-id">Job ID:</label>
+                    <input type="text" id="job-id" name="job-id" required><br><br>
+
+                    <label for="job-name">Job Name:</label>
+                    <input type="text" id="job-name" name="job-name" required><br><br>
+
+                    <label for="self-recommendation">Self Recommendation:</label>
+                    <textarea id="self-recommendation" name="self-recommendation" rows="4" required></textarea><br><br>
+
+                    <label for="resume">Upload Resume (PDF):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf" required><br><br>
+
+                    <button type="submit" onclick="location.href='hunt.html';">Submit</button>
+                </form>
+            </div> 
+        </div>
+    </div>
+
+    <script src="create_application.js"></script>
+</body>
+</html>

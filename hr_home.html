@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Career & Connect</title>
+    <link rel="stylesheet" href="hr_home.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="con">
+                <h2 class="logo">CSC3170</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="hr_jobs.html">JOBS</a></li>
+                    <li><a href="position.html">POSITION</a></li>
+                    <li><a href="application.html">APPLICATION</a></li>
+                    <li><a href="hr_company.html">COMPANY</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="content">
+            <h1><br><br>Career & <br><span>Connect </span><br>Development Hub</h1>
+            <p class="par">Discover your dream job or top talent effortlessly with Career & Connect Hub. 
+                <br> Our platform connects job seekers and employers seamlessly, <br>offering a streamlined experience for both parties. 
+                <br>Join us today and revolutionize your career journey or hiring process.</p>
+
+                <button class="cn"><a href="#">START HIRING</a></button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('signupLink').addEventListener('click', function() {
+            document.getElementById('loginForm').style.display = 'none';
+            document.getElementById('signupForm').style.display = 'block';
+        });
+
+        document.getElementById('goToLogin').addEventListener('click', function() {
+            document.getElementById('signupForm').style.display = 'none';
+            document.getElementById('loginForm').style.display = 'block';
+        });
+    </script>
+
+</body>
+</html>
